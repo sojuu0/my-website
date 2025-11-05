@@ -1,3 +1,8 @@
+html {
+    overflow-x:hidden;
+}
+
+
 img {
     width: 800px;
     height: 400px;
@@ -7,7 +12,7 @@ img {
 
 body {
     padding-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgb(240, 231, 197);
@@ -18,7 +23,98 @@ h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+p {
+    margin-bottom: 3em;
+}
+
 blue {
     color: rgb(29, 123, 231);
 }
+
+.navbar {
+    background-color: white;
+    padding: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    margin-top: 8em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 3em;
+}
+
+.footer-links a {
+    color: black;
+    transition: color 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: white;
+}
+
+
+.github-link {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.github-link:hover {
+    color: brown;
+}
+
+ul {
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
 
